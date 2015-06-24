@@ -1,0 +1,189 @@
+@font-face {
+  font-family:"TradeGot";src:url("TradeGot.eot?") format("eot"),
+  url("TradeGot.woff") format("woff"),
+  url("TradeGot") format("truetype"),
+  url("TradeGot.svg#TradeGot") format("svg");
+  font-weight:normal;font-style:normal;}
+
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+	background:url("../img/bg.jpg" );
+	padding:0px;	
+	font-size: 14px;
+	color:#ffffff;
+	font-family: Lato;	
+	margin-left:20%;
+  margin-right:20%;
+}
+
+
+
+h2 {
+  text-align: center;
+}
+
+
+
+#contact {
+  overflow: auto;
+  margin-top: 15%;
+  width: 600px;
+  height: auto;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+#contact #form {
+width: auto;
+padding-left: 20px;
+
+}
+#contact #form h1 {
+  font: 48px 'Lato',  sans-serif;
+  margin: 0px 10% 12% 6%;
+  text-align: center;
+
+}
+
+#contact #form h2 {
+  font: 48px 'Lato',  sans-serif;
+}
+
+#contact #form span {
+  display:block;
+  float:left;
+  width:100px;
+  padding-top:5px;
+  font: 14px/16px'Lato', Verdana, Helvetica, sans-serif;
+}
+
+#contact #form input {
+  padding-top: 10px;
+  outline-color: #ffffff;
+  outline-width: 2px;
+  outline-style: solid;
+  float:left;
+  width:255px;
+  border:0px;
+  color:#ffffff;
+  background-color:#000000;
+  padding:10px 10px 10px 30px;
+  font: 11px/20px'Lato', Verdana, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  margin-left: 20px;
+
+}
+
+#contact #form select {
+  float:left;
+  outline-color: #ffffff;
+  outline-width: 2px;
+  outline-style: solid;
+  width:255px;
+  height:3.5em;
+  border:0px;
+  color:#A9A9A9;
+  background-color:#000000;
+  padding:10px 10px 10px 30px;  
+  font: 11px/20px'Lato', Verdana, Helvetica, sans-serif;
+  margin-bottom:20px;
+  margin-left:  20px;
+
+}
+
+#contact #form textarea {
+  float:left;
+  outline-color: #ffffff;
+  outline-width: 2px;
+  outline-style: solid;
+  border:0px;
+  width:530px;
+  height:140px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding:20px 20px 20px 20px;
+  font: 11px/20px'Lato', sans-serif;
+  color:#ffffff;
+  background-color:#000000;
+  resize: none;
+  
+}
+
+#contact #form input.submit {
+  cursor: pointer;
+  width:255px;
+  height:30px;
+  float:left;
+  margin-left: 150px;
+  padding:3px 0px 3px 0px;
+  background:#D20030;
+  color:#ffffff;
+  font: 18px/20px 'Lato', sans-serif;
+
+} 
+
+/* Submit text */
+div.browse-wrap {
+        float: left;
+        
+        /*margin:20px; */
+        margin-left: 20px;
+        cursor:pointer;
+        overflow:hidden;
+        height: 40px;
+        width: 255px;
+
+        /* padding:20px 60px; */
+        text-align:center;
+        position:relative;
+        background-color: white;
+        opacity:0.5;
+        border:solid 2px #ffffff;}
+    div.title {
+        color:#D20030;
+        font-size:14px;
+        /* font-weight:bold; */
+        font: 14px/16px'Lato', Verdana, Helvetica, sans-serif;
+        padding: 10px 12px 12px 12px;
+        font-style: underline;}
+
+        
+
+    input.upload {
+        right:0;
+        margin:0;
+        bottom:0;
+        padding:0;
+        opacity:0;
+        height: 140px;
+        outline:none;
+        cursor:inherit;
+        position:absolute;
+        font-size:1000px !important;}
+    span.upload-path {
+        text-align: center;
+        margin:20px;
+        display:block;
+        font-size: 80%;
+        color:#ffffff;
+        font-weight:bold;
+        font-family:'Lato', sans-serif;
+}
+
+#
+.leadtype {
+  padding-left: 10px;
+}
+/* LOGO + NAVIGATION */
+
+.links { margin: 20px 0; color: #888; }
+.links a { font-size: 12px; font-weight: normal; margin: 0 4px; }
+.links a:first-child { margin-left: 0; }
